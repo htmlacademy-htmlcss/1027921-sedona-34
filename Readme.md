@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Ксения Волкова](https://up.htmlacademy.ru/htmlcss/34/user/1027921).
-* Наставник: `Неизвестно`.
+* Наставник: [Артем Картавый](https://htmlacademy.ru/profile/artem_k).
 
 ---
 
