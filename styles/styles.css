@@ -1,0 +1,150 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: 400;
+  background-color: #ffffff;
+}
+
+
+
+.page-header {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.navigation-link {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+
+.main-image {
+  background-image: url("/images/divider.svg"), url("/images/index-background.jpg");
+  padding: 51px 82px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 485px;
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+  
+
+}
+
+.appointment-form {
+  font-family: inherit;
+} 
+
+.form-button {
+  font-family: inherit;
+} 
+
+
+.advantages h2 {
+font-family: "PT Sans", sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+}
+
+.advantages {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  
+  }
+
+
+.search {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color:#000000;
+
+}
+
+.subscription-index {
+  background-image: url("/images/background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  background-color: #2b605f;
+  text-align: center;
+}
+
+.catalog-products {
+  background-image: url("/images/background.jpg");
+  background-size: 100% auto;
+  height: 485px;
+  color: #000000;
+  background-color: #ffffff;
+  
+}
+
+.catalog-title {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  color:#ffffff;
+}
+
+.breadcrumbs-list {
+font-family: 'PT Sans', sans-serif;;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color:#ffffff;
+}
+
+.catalog-filter-group {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color:#ffffff;
+}
+
+.subscription-catalog {
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+}
