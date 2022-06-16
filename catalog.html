@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header class="page-header">
@@ -41,25 +42,21 @@
     </header>
 
     <main class="main-inner">
-        <header class="inner-header">
-          <h1 class="inner-header-title">Каталог</h1>
-          <ul class="breadcrumbs">
-            <li class="breadcrumbs-item">
-              <a class="breadcrumbs-link" href="index.html">
-                <img class="" src="" alt="Главная">
-              </a>
-            </li>
-            <li class="breadcrumbs-item">
-              <a class="breadcrumbs-link">Гостиницы</a>
-            </li>
-          </ul>
-        </header>
         <section class="catalog-products">
-            <h2 class="visually-hidden">Инфраструктура:</h2>
+          <h1 class="catalog-title">Гостиницы Седоны</h1>
+            <ul class="breadcrumbs-list">
+              <li class="breadcrumbs-item">
+                <a class="breadcrumbs-link" href="index.html">
+                  <img class="" src="" alt="Главная">
+                </a>
+              </li>
+              <li class="breadcrumbs-item">
+                <a class="breadcrumbs-link">Гостиницы</a>
+              </li>
+            </ul>
             <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-      
               <fieldset class="catalog-filter-group">
-                  <legend class="catalog-filter-title">Тип жилья:</legend>
+                  <legend class="catalog-filter-title">Инфраструктура:</legend>
                   <ul class="catalog-filter-list">
                     <li class="catalog-filter-item">
                     <label class="control">
@@ -83,7 +80,7 @@
                 </fieldset>
       
                 <fieldset class="catalog-filter-group">
-                <legend class="catalog-filter-title">Группы товаров</legend>
+                <legend class="catalog-filter-title">Тип жилья:</legend>
                 <ul class="catalog-filter-list">
                     <li class="catalog-filter-item">
                       <label class="control">
@@ -113,11 +110,6 @@
               <button class="button-catalog" type="reset">Сбросить</button>
             </form>
           </section>
-          <select class="select-control" aria-label="Сортировка">
-            <option value="cheap">Сначала дешёвые</option>
-            <option value="popular">Сначала популярные</option>
-            <option value="expensive">Сначала дорогие</option>
-          </select>
           <ul class="button list">
             <li class="button-item">
               <a href="#" class="button-cards">
